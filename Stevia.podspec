@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/alessandropettenuzzo96/Stevia.git",
                          :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sachadso'
-  s.source_files     = "Sources/*.swift"
+  s.source_files     = "Sources/**/*.swift"
   s.requires_arc     = true
   s.ios.deployment_target = "9"
   s.tvos.deployment_target = "10.2"
